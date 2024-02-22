@@ -4,7 +4,7 @@ pipeline {
     environment {
         SONAR_VERSION = '10.4' // Change this to your SonarQube version
         SONAR_HOST_URL = 'http://localhost:9000' // Change this to your SonarQube server URL
-        SONAR_TOKEN = credentials('sonar-token') // Use Jenkins credentials for your SonarQube token
+        SONAR_TOKEN = credentials('jenkins') // Use Jenkins credentials for your SonarQube token
     }
     
     stages {
