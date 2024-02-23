@@ -10,7 +10,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                // Checkout your code from version control
+                // Checkout the your code from version control
                 git 'https://github.com/jawadsaeed26/git-demo.git'
             }
         }
